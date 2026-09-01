@@ -13,3 +13,10 @@ The mains steps after installing the OS were:
   -  Setting a static IP for the device.
   -  Installing samba.
   -  Setting a samba user profile, for a base level of security even with it only being accessible on my home network at the moment (not looked at VPN potential for remote connection).
+
+I have added a second drive from an even older pc, so now have twice the storage accessible in the nas pc.
+Other than formatting the drive after copying documents to another drive, same process as setting up other drive i.e. mount drive, create folder and then add to the samba config.
+Note:
+  - Will look at wake-on-lan another time, probably tomorrow as of writing this; seems relatively straight forward.
+  - Also look at a way to turn it off remotely (I know it can be done via windows cmd but making a program might be more interesting e.g. automatically turns it off if nothing received for a few minutes).
+  - I have seen an example of how it can be done via a program (wake-on-lan -> open folder to use -> trigger shutdown remotely) but will need to look at it more another time.
